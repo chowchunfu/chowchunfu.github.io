@@ -2,7 +2,6 @@
 
 Humans
 
-curl --location --request
-GET 'https://api.twitch.tv/helix/search/channels?query=a_seagull' \
---header 'client-id: lwvmziaqnf2ya2nhkfvpg19381bxmp' \
---header 'Authorization: Bearer 2gbdx6oar67tqtcmt49t3wpcgycthx'
+curl -H 'Accept: application/vnd.twitchtv.v5+json' \
+-H 'Client-ID: lwvmziaqnf2ya2nhkfvpg19381bxmp' \
+-X GET 'https://api.twitch.tv/kraken/videos/106400740'
